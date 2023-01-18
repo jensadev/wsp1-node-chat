@@ -1,0 +1,23 @@
+{
+  "name": "wsp1-node-intro",
+  "version": "1.0.0",
+  "description": "Skapa mapp och initiera npm projekt.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e njk,js app.js & npm run scss",
+    "scss": "sass --watch scss:public/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "modern-css-reset": "^1.4.0",
+    "nunjucks": "^3.2.3",
+    "sass": "^1.57.1",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
